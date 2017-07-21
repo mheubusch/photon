@@ -73,45 +73,7 @@
   <p>
     The color palette includes primary and secondary colors that can be used for interfaces and illustrations.
   </p>
-  <h3>Color System</h3>
-  <div class="cf nr2 nl2">
-  <div class="fl-ns w-50-ns ph2 mb3">
-    <p>With a background color use white <code>#ffffff</code> when specified.</p>
-    <p class="f2 fw5 ma0 bg-blue-50 pt6 pl3 pb2 white">White Text</p>
-    <figcaption class="flex bt bw2 b--green-60 pt1">
-  <img class="mr2" src="../images/global/check.svg" alt="">
-  <span class="green-70" style="margin-top: 2px">Do</span>
-</figcaption>
-  </div>
-  <div class="fl-ns w-50-ns ph2 mb3">
-    <p>Use the darkest shade–90–when white text fails contrast ratio.</p>
-    <p class="f2 fw5 ma0 bg-teal-50 pt6 pl3 pb2 teal-90">Teal 90 Text</p>
-    <figcaption class="flex bt bw2 b--green-60 pt1">
-  <img class="mr2" src="../images/global/check.svg" alt="">
-  <span class="green-70" style="margin-top: 2px">Do</span>
-</figcaption>
-  </div>
-</div>
   <p>
-  <h3>Color Contrast Ratio</h3>
-  <div class="cf nr2 nl2">
-  <div class="fl-ns w-50-m w-25-l ph2 mb3">
-    <p class="f3 fw5 mb2 bg-grey-10 pt5 pl3 pb2 grey-30">Fails</p>
-    <p class="small">Color contrast ratio fails</p>
-  </div>
-  <div class="fl-ns w-50-m w-25-l ph2 mb3">
-    <p class="f3 fw5 mb2 bg-grey-10 pt5 pl3 pb2 grey-50">AA Large</p>
-    <p class="small">Above 18pt or bold above 14pt</p>
-  </div>
-  <div class="fl-ns w-50-m w-25-l ph2 mb3">
-    <p class="f3 fw5 mb2 bg-grey-10 pt5 pl3 pb2 grey-70">AA</p>
-    <p class="small">Minimum for any size text</p>
-  </div>
-  <div class="fl-ns w-50-m w-25-l ph2 mb3">
-    <p class="f3 fw5 mb2 bg-grey-10 pt5 pl3 pb2 grey-90">AAA</p>
-    <p class="small">Enhanced for any size text</p>
-  </div>
-</div>
 
   <h3>Blue</h3>
   <p>
@@ -792,9 +754,7 @@
   <p>
     Firefox Orange is only used for branding. Do not use it otherwise.
   </p>
-  <details>
-    <summary>Are you designing a new Firefox product logo?</summary>
-    <table>
+  <table>
   <tbody>
     <tr>
       <td>
@@ -883,7 +843,6 @@
     </tr>
   </tbody>
 </table>
-  </details>
 
   <h3>Ink</h3>
   <p>
@@ -1069,12 +1028,12 @@
 <section>
   <h2>Opacity</h2>
   <div class="cf nr2 nl2">
-  <div class="fl-ns w-third-ns ph2 mb3">
+  <div class="fl-ns w-third-m w-50-l ph2 mb3">
     <p>
-      If necessary you can use opacity combined with Grey 90 <code>#0c0c0d</code>. For example when you want to display a shadow while hovering a button you can use Grey 90 with a 10% alpha channel.
+      If necessary you can use opacity combined with Grey 90. For example when you want to display a shadow while hovering a button you can use Grey 90 with a 10% alpha channel.
     </p>
   </div>
-  <div class="fl-ns w-two-thirds-ns ph2 mb3 f6 f5-ns">
+  <div class="fl-ns w-two-thirds-m w-50-l ph2 mb3 f6 f5-ns">
     <div class="pa3 bg-grey-90">
       <div class="cf">
         <p class="fl ma0 w-20 white font-smoothing">100%</p>
@@ -1142,39 +1101,108 @@
 <section>
   <h2>Text and Background Colors</h2>
   <p>
-    For more information on typography colors make sure to check <a href="typography.html">Typography</a>.
+    For more information on the color of text check <a href="typography.html">Typography</a>.
   </p>
   <h3>Dark Text on Light Background</h3>
-  <p>
-    On light backgrounds the typography is set in Grey 90 <code>#0c0c0d</code> for primary text and Grey 50 <code>#737373</code> for secondary text.
-  </p>
+  <div class="cf nr2 nl2">
+  <div class="fl-ns w-50-ns ph2 mb3">
+    <p>
+      On light backgrounds the typography is set in Grey 90 for primary text and Grey 50 for secondary text.
+    </p>
+  </div>
+  <div class="fl-ns w-50-ns ph2 mb3">
+    <div class="bg-grey-10 pa3">
+      <div class="cf">
+        <div class="fl w-50">
+          <p class="f5 mt0 mb3 grey-90">Primary Text</p>
+        </div>
+        <div class="fl w-50 tr">
+          <code>#0c0c0d</code>
+        </div>
+      </div>
+      <div class="cf">
+        <div class="fl w-50">
+          <p class="f5 ma0 grey-50">Secondary Text</p>
+        </div>
+        <div class="fl w-50 tr">
+          <code>#737373</code>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
   <h3>Light Text on Dark Background</h3>
-  <p>
-    On dark backgrounds the typography is set in White <code>#ffffff</code> for primary text and Grey 10 <code>#f9f9fa</code> for secondary text.
-  </p>
-  <h3>Links</h3>
-  <p>
-    With the default themes enabled links are set in Blue 50 <code>#0a84ff</code>.
-  </p>
+  <div class="cf nr2 nl2">
+  <div class="fl-ns w-50-ns ph2 mb3">
+    <p>
+      On dark backgrounds the typography is set in White for primary text and Grey 10 for secondary text.
+    </p>
+  </div>
+  <div class="fl-ns w-50-ns ph2 mb3">
+    <div class="bg-grey-90 pa3">
+      <div class="cf">
+        <div class="fl w-50">
+          <p class="f5 mt0 mb3 white font-smoothing">Primary Text</p>
+        </div>
+        <div class="fl w-50 tr">
+          <code>#ffffff</code>
+        </div>
+      </div>
+      <div class="cf">
+        <div class="fl w-50">
+          <p class="f5 ma0 grey-10 font-smoothing">Secondary Text</p>
+        </div>
+        <div class="fl w-50 tr">
+          <code>#f9f9fa</code>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <h3>Color Combinations</h3>
+  <div class="cf nr2 nl2">
+  <div class="fl-ns w-50-ns ph2 mb3">
+    <p>With a background color use White when specified.</p>
+  </div>
+  <div class="fl-ns w-50-ns ph2 mb3">
+    <div class="cf pa3 bg-blue-50">
+      <div class="fl w-50">
+        <p class="f5 ma0 white font-smoothing">Primary Text</p>
+      </div>
+      <div class="fl w-50 tr">
+        <code>#ffffff</code>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="cf nr2 nl2">
+  <div class="fl-ns w-50-ns ph2 mb3">
+    <p>Use the darkest shade–90–when white text fails contrast ratio. In this example Teal 90 combined with a Teal 50 background.</p>
+  </div>
+  <div class="fl-ns w-50-ns ph2 mb3">
+    <p class="f5 ma0 bg-teal-50 pa3 teal-90">Teal 90 Text</p>
+  </div>
+</div>
 </section>
 
 <section>
   <h2>Icons and Other Elements</h2>
   <p>
-    Make sure to check <a href="icons.html">Icons</a> in order to understand how to set the alpha channel for primary and secondary icons.
+    For more information on the color of icons check <a href="icons.html">Icons</a>.
   </p>
   <div class="cf nr3 nl3">
-  <div class="fl w-50-ns ph3">
-   <figure>
-      <img src="../images/icons/icons-light.png" alt="Icons on the toolbar with a light theme">
-      <figcaption>Use Grey 90 <code>#0c0c0d</code> fill on light background</figcaption>
-    </figure> 
+  <div class="fl w-50-ns ph3 mb3">
+    <p>Use Grey 90 fill with 80% opacity on light background for primary icons. 60% opacity for secondary icons.</p>
   </div>
-  <div class="fl w-50-ns ph3">
-    <figure>
-      <img src="../images/icons/icons-dark.png" alt="Icons on the toolbar with a dark theme">
-      <figcaption>Use Grey 10 <code>#f9f9fa</code> fill on dark background</figcaption>
-    </figure>
+  <div class="fl w-50-ns ph3 mb3">
+    <img src="../images/icons/icons-light.png" alt="Icons on the toolbar with a light theme">
+  </div>
+  <div class="fl w-50-ns ph3 mb3">
+    <p>Use Grey 10 fill with 80% opacity on dark background for primary icons. 60% opacity for secondary icons.</p>
+  </div>
+  <div class="fl w-50-ns ph3 mb3">
+    <img src="../images/icons/icons-dark.png" alt="Icons on the toolbar with a dark theme">
   </div>
 </div>
 </section>
@@ -1186,28 +1214,26 @@
   </p>
   <h3>Light Theme</h3>
   <div class="cf nr2 nl2">
-  <div class="fl-ns w-50-m w-two-thirds-l ph2 mb3">
+  <div class="fl-ns w-50-ns ph2 mb3">
     <img src="../images/color/color-theme-light.jpg" alt="">
   </div>
-  <div class="fl-ns w-50-m w-third-l ph2 mb3">
-    <div class="ba b--black-10">
-      <div class="bg-white">
-        <div class="cf pa3">
-          <p class="fl ma0 w-50">White</p>
-          <p class="fl ma0 w-50 tr"><code>#ffffff</code></p>
-        </div>
+  <div class="fl-ns w-50-ns ph2 mb3">
+    <div class="bg-white">
+      <div class="cf pa3 ba b--black-10">
+        <p class="fl ma0 w-50">White</p>
+        <p class="fl ma0 w-50 tr"><code>#ffffff</code></p>
       </div>
-      <div class="bg-grey-10">
-        <div class="cf pa3">
-          <p class="fl ma0 w-50">Grey 10</p>
-          <p class="fl ma0 w-50 tr"><code>#f9f9fa</code></p>
-        </div>
+    </div>
+    <div class="bg-grey-10">
+      <div class="cf pa3">
+        <p class="fl ma0 w-50">Grey 10</p>
+        <p class="fl ma0 w-50 tr"><code>#f9f9fa</code></p>
       </div>
-      <div class="bg-grey-30">
-        <div class="cf pa3">
-          <p class="fl ma0 w-50">Grey 30</p>
-          <p class="fl ma0 w-50 tr"><code>#d7d7db</code></p>
-        </div>
+    </div>
+    <div class="bg-grey-30">
+      <div class="cf pa3">
+        <p class="fl ma0 w-50">Grey 30</p>
+        <p class="fl ma0 w-50 tr"><code>#d7d7db</code></p>
       </div>
     </div>
   </div>
@@ -1215,10 +1241,10 @@
 
   <h3>Dark Theme</h3>
   <div class="cf nr2 nl2">
-  <div class="fl-ns w-50-m w-two-thirds-l ph2 mb3">
+  <div class="fl-ns w-50-ns ph2 mb3">
     <img src="../images/color/color-theme-dark.jpg" alt="">
   </div>
-  <div class="fl-ns w-50-m w-third-l ph2 mb3">
+  <div class="fl-ns w-50-ns ph2 mb3">
     <div class="bg-grey-50">
       <div class="cf pa3">
         <p class="fl ma0 w-50 white font-smoothing">Grey 50</p>
