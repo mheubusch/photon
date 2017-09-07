@@ -89,6 +89,10 @@
     "pages": [
     ]
   },
+  {"title": "Branding",
+    "directory": "branding",
+    "file": "firefox-branding.html"
+  },
   {"title": "Resources",
     "directory": "resources",
     "file": "resources.html"
