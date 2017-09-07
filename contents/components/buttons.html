@@ -1,20 +1,5 @@
-<div class="dib">
-  
-  <div class="flex items-center bg-yellow-50 yellow-90 br2 pa1 mb3">
-    <img class="pa1" src="../images/global/warning-16.svg" alt="">
-    <p class="pv1 mv0 mr3 lh-solid">
-      This is a working draft
-    </p>
-    <a class="bg-yellow-60 br1 yellow-90 pa1 fw6 hover-bg-yellow-70 hover-white font-smoothing ttu f6" href="https://github.com/FirefoxUX/photon/issues" alt="Submit feedback about type scale">REPORT ISSUE</a>
-  </div>
-  
-
-  
-
-  
-</div>
 <header>
-  <h1>Buttons</h1>
+  <h1>Buttons - <strong class="red-50">Working Draft</strong></h1>
   <p>Buttons let users understand what action will occur when they click or tap them.</p>
 </header>
 <section>
@@ -67,7 +52,10 @@
   <div class="cf nr2 nl2 mb3">
   <div class="fl-ns w-50-ns ph2">
     <p>
-      Ghost buttons are used with icons only. Add a background if there is not enough cue that the button is actionable.
+      Ghost buttons are used with icons only.
+    </p>
+    <p>
+      Add a background if there is not enough cue that the button is actionable.
     </p>
   </div>
   <div class="fl-ns w-50-ns ph2">
@@ -121,29 +109,43 @@
     <img class="db w-100-ns outline outline--black-01 outline-offset--1" src="../images/buttons/button-segmented.svg" alt="">
   </div>
 </div>
-  <h3>Footer button</h3>
-  <div class="cf nr2 nl2 mb3">
-  <div class="fl-ns w-50-ns ph2">
-    <p>
-      Footer buttons are sticky to the bottom of a component like a doorhanger or a sidebar. The content scrolls and overflows underneath.
-    </p>
-  </div>
-  <div class="fl-ns w-50-ns ph2">
-    <img class="db w-100-ns outline outline--black-01 outline-offset--1" src="../images/buttons/button-footer.svg" alt="">
-  </div>
-</div>
 </section>
 <section>
   <h2>Styles</h2>
   <h3>Text, Icons and Background Colors</h3>
   <div class="cf nr2 nl2 mb3">
   <div class="fl-ns w-50-ns ph2">
-    <p>
-      Text color: #0c0c0d<br>
-      Background color: 10% #0c0c0d<br>
-      Icon color: 80% #0c0c0d<br>
-      Separator color: 30% #0c0c0d
-    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Element</th>
+          <th>Value</th>
+          <th>Opacity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Text</td>
+          <td><code>#0c0c0d</code></td>
+          <td>100%</td>
+        </tr>
+        <tr>
+          <td>Background</td>
+          <td><code>#0c0c0d</code></td>
+          <td>10%</td>
+        </tr>
+        <tr>
+          <td>Icon</td>
+          <td><code>#0c0c0d</code></td>
+          <td>80%</td>
+        </tr>
+        <tr>
+          <td>Separator</td>
+          <td><code>#0c0c0d</code></td>
+          <td>30%</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
   <div class="fl-ns w-50-ns ph2">
     <img class="db w-100-ns outline outline--black-01 outline-offset--1" src="../images/buttons/button-segmented.svg" alt="">
@@ -151,10 +153,24 @@
 </div>
   <div class="cf nr2 nl2 mb3">
   <div class="fl-ns w-50-ns ph2">
-    <p>
-      Text color: #ffffff<br>
-      Background color: #0060df
-    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Element</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Text</td>
+          <td><code>#ffffff</code></td>
+        </tr>
+        <tr>
+          <td>Background</td>
+          <td><code>#0060df</code></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
   <div class="fl-ns w-50-ns ph2">
     <img class="db w-100-ns outline outline--black-01 outline-offset--1" src="../images/buttons/button-primary.svg" alt="">
@@ -163,9 +179,28 @@
   <h3>Corner Radius</h3>
   <div class="cf nr2 nl2 mb3">
   <div class="fl-ns w-50-ns ph2">
-    <p>
-      Border radius: 2px
-    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Size</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Micro</td>
+          <td>2px</td>
+        </tr>
+        <tr>
+          <td>Default</td>
+          <td>2px</td>
+        </tr>
+        <tr>
+          <td>Puffy</td>
+          <td>4px</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
   <div class="fl-ns w-50-ns ph2">
     <img class="db w-100-ns outline outline--black-01 outline-offset--1" src="../images/buttons/button-radius.svg" alt="">
@@ -177,12 +212,28 @@
   <h3>Micro</h3>
   <div class="cf nr2 nl2 mb3">
   <div class="fl-ns w-50-ns ph2">
-    <p>
-      Width: Auto<br>
-      Height: 24px<br>
-      Padding: 8px<br>
-      Font size: 11px
-    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Property</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Height</td>
+          <td>24px</td>
+        </tr>
+        <tr>
+          <td>Padding</td>
+          <td>8px</td>
+        </tr>
+        <tr>
+          <td>Size</td>
+          <td>11px</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
   <div class="fl-ns w-50-ns ph2">
     <img class="db w-100-ns outline outline--black-01 outline-offset--1" src="../images/buttons/button-micro.svg" alt="">
@@ -191,12 +242,28 @@
   <h3>Default</h3>
   <div class="cf nr2 nl2 mb3">
   <div class="fl-ns w-50-ns ph2">
-    <p>
-      Min width: 132px<br>
-      Height: 32px<br>
-      Padding: 8px<br>
-      Font size: 13px
-    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Property</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Height</td>
+          <td>32px</td>
+        </tr>
+        <tr>
+          <td>Padding</td>
+          <td>8px</td>
+        </tr>
+        <tr>
+          <td>Size</td>
+          <td>13px</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
   <div class="fl-ns w-50-ns ph2">
     <img class="db w-100-ns outline outline--black-01 outline-offset--1" src="../images/buttons/button-primary.svg" alt="">
@@ -205,12 +272,28 @@
   <h3>Puffy</h3>
   <div class="cf nr2 nl2 mb3">
   <div class="fl-ns w-50-ns ph2">
-    <p>
-      Min width: 132px<br>
-      Height: 48px<br>
-      Padding: 16px<br>
-      Font size: 15px
-    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Property</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Height</td>
+          <td>48px</td>
+        </tr>
+        <tr>
+          <td>Padding</td>
+          <td>16px</td>
+        </tr>
+        <tr>
+          <td>Size</td>
+          <td>15px</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
   <div class="fl-ns w-50-ns ph2">
     <img class="db w-100-ns outline outline--black-01 outline-offset--1" src="../images/buttons/button-puffy.svg" alt="">
@@ -219,58 +302,68 @@
 </section>
 <section>
   <h2>Behaviors</h2>
+  <h3>Default</h3>
   <div class="cf nr2 nl2 mb3">
-  <div class="fl-ns w-50-ns ph2">
-    <figure>
-      <img class="db w-100-ns outline outline--black-01 outline-offset--1" src="../images/buttons/button-behaviour-default-light.svg" alt="">
-      <figcaption>
-        Default: 10% #0c0c0d<br>
-        Focus: ???<br>
-        Hover: 20% #0c0c0d<br>
-        Pressed: 30% #0c0c0d<br>
-        Disabled: 40% Opacity<br>
-        Progress: ???
-      </figcaption>
-    </figure>
+  <div class="fl-ns w-50-ns ph2 mb3">
+    <table>
+      <thead>
+        <tr>
+          <th>State</th>
+          <th>Background</th>
+          <th>Opacity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Deafult</td>
+          <td><code>#0c0c0d</code></td>
+          <td>10%</td>
+        </tr>
+        <tr>
+          <td>Hover</td>
+          <td><code>#0c0c0d</code></td>
+          <td>20%</td>
+        </tr>
+        <tr>
+          <td>Pressed</td>
+          <td><code>#0c0c0d</code></td>
+          <td>30%</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
-  <div class="fl-ns w-50-ns ph2">
-    <figure>
-      <img class="db w-100-ns outline outline--black-01 outline-offset--1" src="../images/buttons/button-behaviour-default-dark.svg" alt="">
-      <figcaption>
-        Default: 30% #f9f9fa<br>
-        Focus: ???<br>
-        Hover: 20% #f9f9fa<br>
-        Pressed: 10% #f9f9fa<br>
-        Disabled: 40% Opacity<br>
-        Progress: ???
-      </figcaption>
-    </figure>
+  <div class="fl-ns w-50-ns ph2 mb3">
+    <img class="db w-100-ns outline outline--black-01 outline-offset--1" src="../images/buttons/button-behaviour-default-light.svg" alt="">
   </div>
-  <div class="fl-ns w-50-ns ph2">
-    <figure>
-      <img class="db w-100-ns outline outline--black-01 outline-offset--1" src="../images/buttons/button-behaviour-primary-light.svg" alt="">
-      <figcaption>
-        Default: #0a84ff<br>
-        Focus: ???<br>
-        Hover: #0060df<br>
-        Pressed: #003eaa<br>
-        Disabled: 40% Opacity<br>
-        Progress: ???
-      </figcaption>
-    </figure>
+</div>
+  <h3>Primary</h3>
+  <div class="cf nr2 nl2 mb3">
+  <div class="fl-ns w-50-ns ph2 mb3">
+    <table>
+      <thead>
+        <tr>
+          <th>State</th>
+          <th>Background</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Deafult</td>
+          <td><code>#0060df</code></td>
+        </tr>
+        <tr>
+          <td>Hover</td>
+          <td><code>#003eaa</code></td>
+        </tr>
+        <tr>
+          <td>Pressed</td>
+          <td><code>#002275</code></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
-  <div class="fl-ns w-50-ns ph2">
-    <figure>
-      <img class="db w-100-ns outline outline--black-01 outline-offset--1" src="../images/buttons/button-behaviour-primary-dark.svg" alt="">
-      <figcaption>
-        Default: #0a84ff<br>
-        Focus: ???<br>
-        Hover: #0060df<br>
-        Pressed: #003eaa<br>
-        Disabled: 40% Opacity<br>
-        Progress: ???
-      </figcaption>
-    </figure>
+  <div class="fl-ns w-50-ns ph2 mb3">
+    <img class="db w-100-ns outline outline--black-01 outline-offset--1" src="../images/buttons/button-behaviour-primary-light.svg" alt="">
   </div>
 </div>
 </section>
