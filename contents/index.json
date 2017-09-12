@@ -4,6 +4,7 @@
     "file": "welcome.html",
     "hidden": true
   },
+
   {
     "title": "Introduction",
     "directory": "introduction",
@@ -22,6 +23,7 @@
       }
     ]
   },
+
   {
     "title": "Visual",
     "directory": "visual",
@@ -43,11 +45,20 @@
       }
     ]
   },
+
   {
     "title": "Motion",
     "directory": "motion",
-    "file": "motion.html"
+    "pages": [
+      {"title":"Motion Principles",
+      "file": "principles.html"
+      },
+      {"title":"Curve & Durations",
+      "file": "curve.html"
+      }
+    ]
   },
+
   {"title": "Copy",
     "directory": "copy",
     "pages": [
@@ -57,6 +68,7 @@
         "file": "word-list.html"}
     ]
   },
+
   {"title": "Patterns",
     "directory": "patterns",
     "pages": [
@@ -72,6 +84,7 @@
         "draft": "true"}
     ]
   },
+  
   {"title": "Components",
     "directory": "components",
     "pages": [ 
@@ -89,16 +102,30 @@
         "draft": "true"}
     ]
   },
+
   {"title": "Inclusion",
     "pages": [
     ]
   },
+
   {"title": "Branding",
     "directory": "branding",
-    "file": "firefox-branding.html"
+    "pages": [ 
+      {"title": "Firefox Branding",
+        "file": "firefox-branding.html"
+      }
+    ]
   },
+
   {"title": "Resources",
     "directory": "resources",
-    "file": "resources.html"
+    "pages": [ 
+      {"title": "Icons",
+        "file": "icons.html"
+      },
+      {"title": "Typefaces",
+        "file": "typefaces.html"
+      }
+    ]
   }
 ]
